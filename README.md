@@ -5,73 +5,121 @@
 ### Numbers
 
 | participants | projects | challenger |
-| - | - | - |
-| 0 | 0 | 0 |
+| ------------ | -------- | ---------- |
+| 0            | 0        | 0          |
 
-### Challenger
+### Participants Posts
+
+-
+-
+-
+
+## Opening Video
+
+## Challenger
 
 **1: Explorer Challenger**
-must have:
-should have:
-could have:
 
+> [!CAUTION]
+> must have
 
-- Subir um fullnode [BLOCKAHIN_NAME] em algum Cloud
-- Criar um Explorer que se conecte com o fullnode, que deve:
+- Deploy online de um Explorer que deve:
 - Buscar um bloco pelo número
 - Buscar uma transação pelo hash
 - Buscar o saldo pelo endereço
+- Conectar com a mainnet
 
-<img src="https://github.com/user-attachments/assets/3414bd2c-2da5-49cc-bcbb-84665d2492b8" alt="Blockchain Explorer" width="400"> 
+> [!IMPORTANT]
+> should have
 
-**2: Criar uma wallet CLI**
-- Criar uma Wallet CLI
-- Fazer deploy da wallet em um package provider (Pypi, NPM ou Crate)
-- Criar e armazenar vários par de chaves para o usuário (armazenar de forma segura com AES-128 padrão keystore é um Bônus)
-- Buscar o saldo da carteira habilitada
-- Enviar XML para outros endereços
+- Frontend atualizados a cada novo bloco
 
-<img src="https://github.com/user-attachments/assets/eab43826-6edd-4e3d-8927-241e7af77375" alt="Oracle Blockchain" width="400">
+> [!TIP]
+> could have
 
-**3: Criar um Oráculo**
-- Criar um Frontend que busque informações de preços diretamente na Blockchain
-- Utilizar as transações do tipo `Manage Data` para salvar dados na Blockchain
-- Os dados podem ser sobre preço, noticias ou outras informações que precisam de rastreabilidade de tempo
+- Subir um fullnode [BLOCKAHIN_NAME] em algum Cloud
+- Conectar o Explorer no seu fullnode, como uma rede privada
 
-<img src="https://github.com/user-attachments/assets/6e6c447b-51de-4630-a0aa-ee7c0b82f93f" alt="Oracle Blockchain" width="400">
+<img src="" alt="Blockchain Explorer" width="400">
 
+**2: Wallet Challenger**
 
-**4: Criar um CRUD usando Smartcontracts**
-- Construir um smartcontract em Rust usando Stellar SDK
-- O contrato deve ter as instruções de Creat, Read, Update e Delete
+> [!CAUTION]
+> must have:
 
-<img src="https://github.com/user-attachments/assets/8d85277a-445a-49db-b29e-0d36fede5f20" alt="CLI Wallet" width="400">
+- Criar uma Wallet web que:
+- Criar par de chaves
+- Import seed para criar wallet
+- Buscar o saldo da carteira
+- Enviar [NATIVE_TOKEN] para outros endereços
 
+> [!IMPORTANT]
+> should have:
 
-### Post/Articles of participants
+- Importar seed de 12 e 24 palavras
+- Importar private keys
+- buscar saldo de outros Tokens
+- Enviar qualquer Tokens
 
-1. https://www.linkedin.com/posts/emanoel-oliveira-br_nearx-stellar-dojostellar-activity-7291090329829609472-XuDB/?utm_source=share&utm_medium=member_desktop
-2. https://www.linkedin.com/posts/emanoel-oliveira-br_create-your-local-stellar-node-a-step-by-step-activity-7291791286951374848-Omng/?utm_source=share&utm_medium=member_desktop
-3. https://www.linkedin.com/posts/madureiradaniel_blockchain-stellar-web3-activity-7291994993659908097-ml3V/?utm_source=share&utm_medium=member_desktop
-4. https://www.linkedin.com/feed/update/urn:li:activity:7291542293675692034/
-5. https://www.linkedin.com/posts/conrado-niemeyer_blockchain-stellar-nearx-activity-7298691226516549633-2hGg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-6. https://www.linkedin.com/posts/dionathan-cordova-03a421134_blockchain-stellar-node-activity-7292878253340479490-ye-K?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-7. https://www.linkedin.com/posts/marceloweb3_vite-react-activity-7293330784629760000-Y4h6?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-8. https://www.linkedin.com/posts/kledenilson_stellar-dojoabrstellar-stellar-activity-7292543965931724802-bueF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-9. https://www.linkedin.com/posts/kelvintanita_stellarsenseis-blockchain-rust-activity-7293025611818663936-qXF_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-10. https://www.linkedin.com/posts/conrado-niemeyer_stellar-blockchain-opensource-activity-7292958218278887424-M4W_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-11. https://www.linkedin.com/posts/marceloweb3_we-held-our-first-meeting-on-dojo-stellar-activity-7291507168858591233-P14n?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-12. https://www.linkedin.com/posts/madureiradaniel_blockchain-stellar-web3-activity-7291994993659908097-ml3V?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
-13. https://www.linkedin.com/posts/conrado-niemeyer_blockchain-stellar-xlm-activity-7295775532816736256-AAjs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpOXLkBfne8vOaBrkrkLi4yRTXqYlN66Nk
+> [!TIP]
+> could have
 
+- Salvar de forma segura a wallet no disco usando o padrão: Web3 Secret Storage Definition
 
-## Video de abertura: https://www.youtube.com/watch?v=l-VjAuM0B6g
+<img src="" alt="Wallet Challenger" width="400">
+
+**3: Oracle Challenger**
 
 
-## Links úteis:
-- Dominando Stellar & Fullnode com Docker, Prometheus e SDK Python: https://www.youtube.com/watch?v=yj1sMVlatSM&t=4193s
+- interface frontend on o usuário:
+1. adiciona seu nome e link para o linkedin, github e x(twitter)
+2. assina e paga para adicionar seus dados on-chain
+3. agora qualquer pessoa pode dar 1 estrela para esse usuário
+4. para dar uma estrela outro user assina e paga
+5. as estrelas são como reputaçnao que vc recebe da comunidade
 
-- Maravilhoso artigo de como subir um node em um cloud FREE: https://medium.com/@pavusa/how-to-set-up-and-run-a-bitcoin-node-on-regtest-mode-using-linode-508c355bf1c3 (👏 parabéns mano @Rob DC)
+**preciso de um mecanismo de incentivo interessante para previnir fraudes**
 
-- Outro Maravilhoso artigo de como subir um node em um cloud FREE: https://medium.com/@mauricio.doerr/bitcoin-regtest-node-with-always-free-oracle-cloud-compute-instance-e7412dd0f902 (👏 parabéns mano @Mauricio Doer)
- 
+<img src="" alt="Oracle Challenger" width="400">
+
+**4: Smartcontracts Challenger: Token ERC20 Like**
+
+<img src="" alt="Smartcontracts Challenger: Token ERC20 Like" width="400">
+
+**5: Smartcontracts Challenger: Voting System**
+
+- sistema de votação simpels onde
+1. uma eleição dura 7 dias (contado em blocos)
+2. periodo de votação dura 1 dia (contado em blocos)
+3. qualquer um pode se canditadar para a eleição atual (se já houver um eleito será candidato para a próxima)
+4. qualquer um pode votar 1 vez nos candidatos
+
+**preciso de um mecanismo de incentivo interessante para previnir fraudes**
+**se houver algo mais adicione aqui**
+
+
+<img src="" alt="Smartcontracts Challenger: Voting System" width="400">
+
+**6: Smartcontracts Challenger: DeFi Zero-Collateral Lending**
+
+- Usar o oracúlo criado antes para liberar emprestimos sem colateral
+- pode ser apenas um mint para o usuário que puder pegar emprestimos
+- para a versão mais avançada pode se criar um pool de liquidez onde o investidor escolha o nivel de reputação que quer investir, como que teremos pools para nivel AAA nivel BBB e nivel CCC de reputação etc...
+
+
+<img src="" alt="Smartcontracts Challenger: DeFi Zero-Collateral Lending" width="400">
+
+**7: Smartcontracts Challenger: Hack me!**
+- Nesse o professor escreve o contrato e publica para que os alunos possam hackear numa seccão ao vivo de 1h
+- Sugira um contrato simples com 8 falhas de desenvolvimento:
+- 2 falha critical
+- 2 falaha mid
+- 4 falhas low
+
+<img src="" alt="Smartcontracts Challenger: Hack me!" width="400">
+
+## Links utils
+
+- 
+- 
+- 
