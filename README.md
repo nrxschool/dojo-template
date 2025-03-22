@@ -43,8 +43,6 @@
 - Conectar o Explorer ao seu fullnode, como uma rede privada.
 - Adicionar gráficos e estatísticas (ex.: hash rate, transações por segundo).
 
-<img src="" alt="Blockchain Explorer" width="400">
-
 ### 2: Wallet Challenger
 
 > [!CAUTION]
@@ -69,8 +67,6 @@
 
 - Salvar de forma segura a wallet no disco usando o padrão: Web3 Secret - Storage Definition.
 - Adicionar suporte para assinatura de mensagens e transações offline.
-
-<img src="" alt="Wallet Challenger" width="400">
 
 ### 3: Oracle Challenger
 
@@ -98,8 +94,6 @@
 - Permitir que usuários adicionem outros perfis sociais ou habilidades.
 - Integrar com um sistema de governança onde usuários com alta reputação têm mais peso em votações
 
-<img src="" alt="Oracle Challenger" width="400">
-
 ### 4: Smartcontracts Challenger: Token ERC20 Like
 
 > [!CAUTION]
@@ -121,8 +115,6 @@
 
 - Permitir a pausa e retomada de transações (se suportado pela blockchain).
 - Interface (se user tiver tokens) mostra dashboard com saldo
-
-<img src="" alt="Smartcontracts Challenger: Token ERC20 Like" width="400">
 
 ### 5: Smartcontracts Challenger: Voting System
 
@@ -147,8 +139,6 @@
 - Implementar um mecanismo de incentivo para prevenir fraudes (ex.: custo para votar ou recompensas para votantes).
 - Adicionar um sistema de delegação de votos.
 
-<img src="" alt="Smartcontracts Challenger: Voting System" width="400">
-
 ### 6: Smartcontracts Challenger: DeFi Zero-Collateral Lending
 
 > [!CAUTION]
@@ -171,8 +161,6 @@
 - Adicionar um sistema de seguro para investidores.
 - Permitir a tokenização dos empréstimos (ex.: NFTs representando - dívidas).
 
-<img src="" alt="Smartcontracts Challenger: DeFi Zero-Collateral Lending" width="400">
-
 ### 7: Smartcontracts Challenger: Hack me!
 
 > [!CAUTION]
@@ -188,8 +176,6 @@
 - Adicionar um sistema de recompensas para os alunos que encontrarem as - falhas.
 - Criar uma competição em tempo real durante a seção ao vivo.
 - Publicar um relatório pós-desafio com as falhas e correções.
-
-<img src="" alt="Smartcontracts Challenger: Hack me!" width="400">
 
 ## Links utils
 
