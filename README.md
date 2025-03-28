@@ -94,7 +94,7 @@
 - Permitir que usuários adicionem outros perfis sociais ou habilidades.
 - Integrar com um sistema de governança onde usuários com alta reputação têm mais peso em votações
 
-### 4: Smartcontracts Challenger: Token ERC20 Like
+### 4: Smartcontracts Challenger: Token ERC20 + ElizaOS
 
 > [!CAUTION]
 > must have
@@ -102,19 +102,26 @@
 - Criar um contrato de token compatível com o padrão ERC-20 (ou equivalente na blockchain escolhida).
 - Implementar funções básicas: transfer, balanceOf, approve, e transferFrom.
 - Permitir o minting e burning de tokens.
-- Interface frontend para qualquer um poder mintar e ganhar tokens.
+- Interface frontend para qualquer um poder mintar e ganhar tokens
+- Interface frontend para interagir com ElizaOS
+- ElizaOS deve permitir
+  - consultas de saldo, ex.: "Eliza, quanto tenho de saldo?", "quanto saldo tem 0x123?".
+  - envio de tokens, ex.: "Envie 10 tokens para 0x123...".
 
 > [!IMPORTANT]
 > should have
-
+- Explica erros comuns (ex.: "Você esqueceu de aprovar a transação primeiro").
+- Eliza deve interpretar comandos básicos e confirmar transações antes de executá-las.
 - Adicionar eventos para transferências e aprovações.
 - Implementar um sistema de taxas para transações.
+- Eliza explica funções do contrato (ex.: "O que é approve()?") e mostra histórico de transações em formato simplificado.
 
 > [!TIP]
 > could have
 
 - Permitir a pausa e retomada de transações (se suportado pela blockchain).
 - Interface (se user tiver tokens) mostra dashboard com saldo
+- Eliza sugere transações com base em hábitos (ex.: "Você sempre envia 5 tokens para X às sextas. Quer repetir?").
 
 ### 5: Smartcontracts Challenger: Voting System
 
@@ -127,10 +134,16 @@
 - Qualquer um pode se candidatar para a eleição atual (se já houver um eleito, será candidato para a próxima).
 - Qualquer um pode votar 1 vez nos candidatos.
 - Exibir resultados em tempo real.
+- Interface frontend com suport para ElizaOS
+- Eliza realização transações com linguagnes natural:
+  - Eliza, quem está concorrendo?
+  - Eliza, vote no candidato A?
+  - Eliza, quem está ganhando?
+
 
 > [!IMPORTANT]
 > should have
-
+- Explica erros comuns (ex.: "Você esqueceu de aprovar a transação primeiro").
 - Permitir votação ponderada com base em tokens ou reputação.
 
 > [!TIP]
@@ -147,6 +160,11 @@
 - Usar o oráculo criado anteriormente para liberar empréstimos sem colateral.
 - Permitir que usuários com alta reputação peguem empréstimos.
 - Criar um sistema de pagamento de empréstimos com juros.
+- ElizaOS monitora interações no Twitter (posts marcados com #ElizaOS) e calcula um "Community Score" baseado em:
+  - Menções positivas ao projeto.
+  - Respostas úteis a dúvidas técnicas.
+  - Compartilhamento de tutoriais/recursos.
+  - Score atualiza o oráculo e afeta limites de empréstimo (ex.: +50 pontos = +10% de crédito).
 
 > [!IMPORTANT]
 > should have
@@ -158,6 +176,7 @@
 > [!TIP]
 > could have
 
+- Eliza envia DM no Twitter/X com atualizações de score (ex.: "Seu score subiu! Agora você pode pegar +5 ETH emprestados").
 - Adicionar um sistema de seguro para investidores.
 - Permitir a tokenização dos empréstimos (ex.: NFTs representando - dívidas).
 
